@@ -1,0 +1,55 @@
+
+.intro {
+    left: 50%;
+    opacity: 0;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 63%;
+    z-index: 200;
+    text-align: center;
+  }
+  
+  .intro p {
+    color: rgb(75, 213, 238);
+    font-size: 2.25rem;
+  }
+  .volume {
+    background: transparent;
+    border: 0;
+    top: 55px;
+    cursor: pointer;
+    left: 10px;
+    position: fixed;
+    z-index: 1000;
+  }
+  
+  .volume img {
+    height: 24px;
+  }
+
+  body {
+      background-color: black
+  }
+
+@keyframes myAnimation{
+    0%{
+      opacity: 1;
+      transform: rotateX(90deg);
+    }
+    50%{
+      opacity: 0.5;
+      transform: rotateX(0deg);
+    }
+    100%{
+      display: none;
+      opacity: 0;
+      transform: rotateX(90deg);
+    }
+  }
+  
+#here2{
+      animation-name: myAnimation;
+      animation-duration: 10000ms;
+      animation-fill-mode: forwards;
+  }
+
