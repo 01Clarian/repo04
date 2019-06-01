@@ -5,13 +5,13 @@ import {createStore, applyMiddleware, combineReducers} from 'redux'
 import 'tachyons'
 import {createLogger} from 'redux-logger'
 import thunkMiddleware from 'redux-thunk'
-import {searchPeople, requestPeople, requestPlanets, requestStarships, togglePeople,} from './reducers'
+import {searchPeople, requestPeople, requestPlanets, requestStarships, requestSpecies, requestVehicles, requestFilms, togglePeople,} from './reducers'
 import App from './Containers/App';
 import * as serviceWorker from './serviceWorker';
 import Starintro from './Containers/Starintro'
 
 const logger = createLogger();
-const rootReducer = combineReducers({searchPeople, requestPeople, requestPlanets, requestStarships, togglePeople})
+const rootReducer = combineReducers({searchPeople, requestPeople, requestPlanets, requestFilms, requestSpecies, requestVehicles, requestStarships, togglePeople})
 
 const store = createStore(rootReducer, applyMiddleware(thunkMiddleware, logger))
 

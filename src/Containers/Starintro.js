@@ -41,13 +41,7 @@ onVolumeClick = () => {
 render() {
     return (
     <div>
-        
-    <section className="intro" ref={this.intro}>
-    <p id="here2">
-      A long time ago, in a galaxy far,<br /> far away....
-    </p>
-    </section>
-    <audio loop ref={this.audio} muted>
+      <audio loop ref={this.audio} muted>
           <source
             type="audio/mpeg"
             src="https://ia801501.us.archive.org/23/items/StarWars_20180709/Star%20Wars.mp3"
@@ -62,6 +56,13 @@ render() {
             <img src={volumeOn} alt="Volume is on" />
           )}
         </button>
+
+    <section className="intro" ref={this.intro}>
+    {/*<p id="here2">
+      A long time ago, in a galaxy far,<br /> far away....
+          </p> */}
+    </section>
+    
     </div>
     )
 }

@@ -181,11 +181,11 @@ header a, a:visited {
                 #starshipbtn {
                     padding: 15px 25px;
                     font-size: 24px;
+                    color: white;
                     margin: 14px;
                     text-align: center;
                     cursor: pointer;
                     outline: none;
-                    color: white;
                     background-color:green;
                     border: none;
                     border-radius: 15px;
@@ -201,3 +201,99 @@ header a, a:visited {
                             box-shadow: 0 5px #666;
                             transform: translateY(4px);
                         }}
+
+                        #vehiclesbtn {
+                          padding: 15px 25px;
+                          font-size: 24px;
+                          margin: 14px;
+                          text-align: center;
+                          cursor: pointer;
+                          outline: none;
+                          color: white;
+                          background-color:green;
+                          border: none;
+                          border-radius: 15px;
+                          box-shadow: 0 3px black;
+                        }
+                      
+                        #vehiclesbtn:hover
+                        {background-color:orange}
+                      
+                          @media all and (max-width:30em){
+                              #starshipbtn:active {
+                                  background-color: #3e8e41;
+                                  box-shadow: 0 5px #666;
+                                  transform: translateY(4px);
+                              }}
+
+                              #speciesbtn {
+                                padding: 15px 25px;
+                                font-size: 24px;
+                                margin: 14px;
+                                text-align: center;
+                                cursor: pointer;
+                                outline: none;
+                                color: white;
+                                background-color:green;
+                                border: none;
+                                border-radius: 15px;
+                                box-shadow: 0 3px black;
+                              }
+                            
+                              #speciesbtn:hover
+                              {background-color:purple}
+                            
+                                @media all and (max-width:30em){
+                                    #starshipbtn:active {
+                                        background-color: #3e8e41;
+                                        box-shadow: 0 5px #666;
+                                        transform: translateY(4px);
+                                    }}
+
+                                    #filmsbtn {
+                                      padding: 15px 25px;
+                                      font-size: 24px;
+                                      margin: 14px;
+                                      text-align: center;
+                                      cursor: pointer;
+                                      outline: none;
+                                      color: white;
+                                      background-color:green;
+                                      border: none;
+                                      border-radius: 15px;
+                                      box-shadow: 0 3px black;
+                                    }
+                                  
+                                    #filmsbtn:hover
+                                    {background-color:violet}
+                                  
+                                      @media all and (max-width:30em){
+                                          #starshipbtn:active {
+                                              background-color: #3e8e41;
+                                              box-shadow: 0 5px #666;
+                                              transform: translateY(4px);
+                                          }}
+
+                                          #showallbtn {
+                                            padding: 15px 25px;
+                                            font-size: 24px;
+                                            margin: 14px;
+                                            text-align: center;
+                                            cursor: pointer;
+                                            outline: none;
+                                            color: white;
+                                            background-color:green;
+                                            border: none;
+                                            border-radius: 15px;
+                                            box-shadow: 0 3px black;
+                                          }
+                                        
+                                          #showallbtn:hover
+                                          {background-color:brown}
+                                        
+                                            @media all and (max-width:30em){
+                                                #starshipbtn:active {
+                                                    background-color: #3e8e41;
+                                                    box-shadow: 0 5px #666;
+                                                    transform: translateY(4px);
+                                                }}

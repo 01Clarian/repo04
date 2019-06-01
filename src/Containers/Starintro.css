@@ -2,16 +2,16 @@
 .intro {
     left: 50%;
     opacity: 0;
-    position: fixed;
     transform: translate(-50%, -50%);
-    top: 58%;
-    z-index: 200;
+    position: absolute;
+    top: 120;
     text-align: center;
   }
   
   .intro p {
-    color: rgb(75, 213, 238);
+    color: rgb(16, 80, 92);
     font-size: 2.25rem;
+    
   }
   .volume {
     background: transparent;
