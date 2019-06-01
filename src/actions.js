@@ -49,10 +49,6 @@ dispatch({type:REQUEST_PEOPLE_PENDING})
     .then(people => people.results)
 ))
 .then(data => dispatch({type:REQUEST_PEOPLE_SUCCESS, payload:[].concat(...data)}))
-<<<<<<< HEAD
-
-=======
->>>>>>> 03e28b373e89196b937d85ba2c002f927ebcedd2
 .catch(error => dispatch({type:REQUEST_PEOPLE_FAILED, payload:error}))    
 }
 

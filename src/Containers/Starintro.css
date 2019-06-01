@@ -4,11 +4,7 @@
     opacity: 0;
     position: fixed;
     transform: translate(-50%, -50%);
-<<<<<<< HEAD
     top: 58%;
-=======
-    top: 63%;
->>>>>>> 03e28b373e89196b937d85ba2c002f927ebcedd2
     z-index: 200;
     text-align: center;
   }
