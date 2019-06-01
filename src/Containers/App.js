@@ -99,7 +99,7 @@ render () {
   <br></br>
           
   <Searchbox searchChange={onSearchChage} />
-  <p id="here"> Please click buttons twice to reset due to novice react coding methods. </p>
+  <p id="here"> This APP is configured with React and rewired through Redux. </p>
   <br></br>
   <button id="peoplebtn" onClick={this.toggleHidden.bind(this)} >
           People
