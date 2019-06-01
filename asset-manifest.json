@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/repo04/static/css/main.4a8fcc55.chunk.css",
-    "main.js": "/repo04/static/js/main.baf14321.chunk.js",
-    "main.js.map": "/repo04/static/js/main.baf14321.chunk.js.map",
-    "runtime~main.js": "/repo04/static/js/runtime~main.69967c48.js",
-    "runtime~main.js.map": "/repo04/static/js/runtime~main.69967c48.js.map",
-    "static/css/2.31dafeb2.chunk.css": "/repo04/static/css/2.31dafeb2.chunk.css",
-    "static/js/2.af8401e0.chunk.js": "/repo04/static/js/2.af8401e0.chunk.js",
-    "static/js/2.af8401e0.chunk.js.map": "/repo04/static/js/2.af8401e0.chunk.js.map",
-    "index.html": "/repo04/index.html",
-    "precache-manifest.81d612ebeef2497ed67f90dfadb5dd7f.js": "/repo04/precache-manifest.81d612ebeef2497ed67f90dfadb5dd7f.js",
-    "service-worker.js": "/repo04/service-worker.js",
-    "static/css/2.31dafeb2.chunk.css.map": "/repo04/static/css/2.31dafeb2.chunk.css.map",
-    "static/css/main.4a8fcc55.chunk.css.map": "/repo04/static/css/main.4a8fcc55.chunk.css.map",
-    "static/media/swdb.png": "/repo04/static/media/swdb.6407f08b.png",
-    "static/media/volume_off.svg": "/repo04/static/media/volume_off.a3d484ff.svg",
-    "static/media/volume_on.svg": "/repo04/static/media/volume_on.ef7f87ab.svg"
+    "main.css": "/starwarsapi/static/css/main.acc36aeb.chunk.css",
+    "main.js": "/starwarsapi/static/js/main.99c848e5.chunk.js",
+    "main.js.map": "/starwarsapi/static/js/main.99c848e5.chunk.js.map",
+    "runtime~main.js": "/starwarsapi/static/js/runtime~main.a0f48d18.js",
+    "runtime~main.js.map": "/starwarsapi/static/js/runtime~main.a0f48d18.js.map",
+    "static/css/2.31dafeb2.chunk.css": "/starwarsapi/static/css/2.31dafeb2.chunk.css",
+    "static/js/2.af8401e0.chunk.js": "/starwarsapi/static/js/2.af8401e0.chunk.js",
+    "static/js/2.af8401e0.chunk.js.map": "/starwarsapi/static/js/2.af8401e0.chunk.js.map",
+    "index.html": "/starwarsapi/index.html",
+    "precache-manifest.889a164337fc3e281049c9856ebce700.js": "/starwarsapi/precache-manifest.889a164337fc3e281049c9856ebce700.js",
+    "service-worker.js": "/starwarsapi/service-worker.js",
+    "static/css/2.31dafeb2.chunk.css.map": "/starwarsapi/static/css/2.31dafeb2.chunk.css.map",
+    "static/css/main.acc36aeb.chunk.css.map": "/starwarsapi/static/css/main.acc36aeb.chunk.css.map",
+    "static/media/swdb.png": "/starwarsapi/static/media/swdb.6407f08b.png",
+    "static/media/volume_off.svg": "/starwarsapi/static/media/volume_off.a3d484ff.svg",
+    "static/media/volume_on.svg": "/starwarsapi/static/media/volume_on.ef7f87ab.svg"
   }
 }
