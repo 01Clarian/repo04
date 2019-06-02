@@ -195,28 +195,30 @@ render () {
   <Searchbox searchChange={onSearchChage} />
   <p id="here"> This API fetch demonstration is configured with React and rewired through Redux. </p>
   <br></br>
-  <button id="peoplebtn" onClick={this.toggleHidden.bind(this)} >
+  <div style={{width:'100%', justifyContent:'center'}}>
+  <button style={{padding:'0', height:'60px'}} id="peoplebtn" onClick={this.toggleHidden.bind(this)} >
           People
         </button>
-        <button id="planetbtn" onClick={this.toggleHidden2.bind(this)} >
+        <button style={{padding:'0', height:'60px'}} id="planetbtn" onClick={this.toggleHidden2.bind(this)} >
           Planets
         </button>
-        <button id="starshipbtn" onClick={this.toggleHidden3.bind(this)} >
+        <button style={{padding:'0', height:'60px'}} id="starshipbtn" onClick={this.toggleHidden3.bind(this)} >
           Starships
         </button>
         <p></p>
-        <button id="vehiclesbtn"  onClick={this.toggleHidden4.bind(this)} >
+        <button style={{padding:'0', height:'60px'}} id="vehiclesbtn"  onClick={this.toggleHidden4.bind(this)} >
           Vehicles
         </button>
-        <button id="speciesbtn"  onClick={this.toggleHidden5.bind(this)} >
+        <button style={{padding:'0', height:'60px'}} id="speciesbtn"  onClick={this.toggleHidden5.bind(this)} >
           Species
         </button>
-        <button id="filmsbtn" onClick={this.toggleHidden6.bind(this)} >
+        <button style={{padding:'0', height:'60px'}} id="filmsbtn" onClick={this.toggleHidden6.bind(this)} >
           Films
         </button>
-        <button id="showallbtn" onClick={this.toggleHidden7.bind(this)} >
-          Search All
+        <button style={{padding:'0', height:'60px'}} id="showallbtn" onClick={this.toggleHidden7.bind(this)} >
+          Database
         </button>
+        </div>
   <Scrollview
   >
            {!this.state.isHidden && <Peoplelist peopleList={filteredPeople} />} 

@@ -1,8 +1,10 @@
 import React from 'react'
+import './Displays.css'
 
 const DisplaySpecies = ({name, language, average_lifespan, classification, created, eye_colors}) => {
     return (
-        <div className="dib bg-purple ma3 pa3 shadow=5 br3" style={{opacity:0.8}}>
+        <div className="glowduck" >
+        <div className="dib glowduck2 bg-purple ma3 pa3 shadow=5 br3" style={{opacity:0.8}}>
         <h1>{name}</h1>
         <br></br>
         <p>Language: {language}</p>   
@@ -11,6 +13,8 @@ const DisplaySpecies = ({name, language, average_lifespan, classification, creat
         <p>Created: {created}</p>   
         <p>Eye Color: {eye_colors}</p>       
         </div>
+        </div>
+
     )
 };
 
