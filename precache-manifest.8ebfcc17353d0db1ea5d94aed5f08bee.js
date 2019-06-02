@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d90ec4e107f9ab24eded10c9a7b7a340",
+    "revision": "84771524ca2f42ba03d294214ec66af6",
     "url": "/starwarsapi/index.html"
   },
   {
-    "revision": "f0f03f8b1a3dce519e8d",
+    "revision": "b754c4723e5d1c85f7e7",
     "url": "/starwarsapi/static/css/2.31dafeb2.chunk.css"
   },
   {
-    "revision": "548df29201ade5e4c72b",
-    "url": "/starwarsapi/static/css/main.ebf91cef.chunk.css"
+    "revision": "15a48b8b4820cfe06e64",
+    "url": "/starwarsapi/static/css/main.2a588046.chunk.css"
   },
   {
-    "revision": "f0f03f8b1a3dce519e8d",
-    "url": "/starwarsapi/static/js/2.f7a55fc5.chunk.js"
+    "revision": "b754c4723e5d1c85f7e7",
+    "url": "/starwarsapi/static/js/2.8d1750ed.chunk.js"
   },
   {
-    "revision": "548df29201ade5e4c72b",
-    "url": "/starwarsapi/static/js/main.4c145471.chunk.js"
+    "revision": "15a48b8b4820cfe06e64",
+    "url": "/starwarsapi/static/js/main.c46091a2.chunk.js"
   },
   {
     "revision": "460864e0b3a2c1204984",
